@@ -23,7 +23,7 @@ class isAdmin
             }
             else
             {
-                return to_route('user.home');
+                return to_route('user.home')
             }
         }
     }

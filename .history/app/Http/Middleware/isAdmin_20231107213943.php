@@ -15,16 +15,7 @@ class isAdmin
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if(auth()->check())
-        {
-            if(auth()->user()->is_admin==1)
-            {
-                return $next($request);
-            }
-            else
-            {
-                return to_route('user.home');
-            }
-        }
+        if
+        return $next($request);
     }
 }

@@ -21,10 +21,7 @@ class isAdmin
             {
                 return $next($request);
             }
-            else
-            {
-                return to_route('user.home');
-            }
+            
         }
     }
 }
